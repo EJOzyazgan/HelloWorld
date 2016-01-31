@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ej.example.com.helloworld.MainActivity">
+    <item
+        android:id="@+id/hello"
+        android:orderInCategory="100"
+        android:title="HelloWorld"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/calc"
+        android:orderInCategory="100"
+        android:title="Calc"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/imageEditor"
+        android:orderInCategory="100"
+        android:title="Image Editor"
+        app:showAsAction="never" />
+</menu>

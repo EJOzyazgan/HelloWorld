@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ej.example.com.helloworld.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/mainLayout">
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Hellow World"
+        android:id="@+id/helloButton"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageEditorButton"
+        android:layout_alignStart="@+id/imageEditorButton" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Calculator"
+        android:id="@+id/calcButton"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/helloButton"
+        android:layout_alignLeft="@+id/helloButton"
+        android:layout_alignStart="@+id/helloButton" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Image Editor"
+        android:id="@+id/imageEditorButton"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/calcButton"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
